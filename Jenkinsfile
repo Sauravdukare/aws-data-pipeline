@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         AWS_REGION = "us-east-1"
-        AWS_ACCOUNT_ID = "<your-aws-account-id>"
+        AWS_ACCOUNT_ID = "600627315550"
         ECR_REPO_NAME = "aws-data-pipeline"
         IMAGE_TAG = "latest"
     }
