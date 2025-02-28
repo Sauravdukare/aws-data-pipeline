@@ -4,14 +4,14 @@ import pandas as pd
 import json
 
 # AWS Configurations
-S3_BUCKET = "your-s3-bucket-name"
+S3_BUCKET = "saurav1129"
 S3_KEY = "data.csv"
-RDS_HOST = "your-rds-endpoint"
-RDS_DB = "your-database-name"
-RDS_USER = "your-db-username"
-RDS_PASSWORD = "your-db-password"
-GLUE_DATABASE = "your-glue-database"
-GLUE_TABLE = "your-glue-table"
+RDS_HOST = "godigital-test1.cmhowge4gh37.us-east-1.rds.amazonaws.com"
+RDS_DB = "godigital-test1"
+RDS_USER = "admin"
+RDS_PASSWORD = "9823954722"
+GLUE_DATABASE = ""
+GLUE_TABLE = ""
 
 # Initialize AWS Clients
 s3 = boto3.client('s3')
